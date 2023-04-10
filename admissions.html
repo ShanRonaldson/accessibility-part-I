@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible websites I</title>
+  </head>
+  <body>
+    <header role="banner">
+      <div class="title">Lorem Ipsum University</div>
+      <div class="tagline">Lorem ipsum dolor sit amet</div>
+    </header>
+
+    <nav aria-label="Lorem Ipsum University">
+      <ul
+        class="menubar-navigation"
+        role="menubar"
+        aria-label="Lorem Ipsum University"
+      >
+        <li role="none">
+          <a role="menuitem" href="#home"> Home </a>
+        </li>
+        <li role="none">
+          <a
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            href="#about"
+          >
+            About
+          </a>
+        </li>
+        <li role="none">
+          <a
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            href="#admissions"
+          >
+            Admissions
+          </a>
+        </li>
+        <li role="none">
+          <a
+            role="menuitem"
+            aria-haspopup="true"
+            aria-expanded="false"
+            href="#academics"
+          >
+            Academics
+          </a>
+        </li>
+        <li role="none">
+            <a
+              role="menuitem"
+              aria-haspopup="true"
+              aria-expanded="false"
+              href="#contact"
+            >
+              Contact
+            </a>
+          </li>
+      </ul>
+    </nav>
+
+    <div class="main">
+        <section aria-labelledby="id-page-title">
+          <h1 id="id-page-title" class="page_title">Lorem Ipsum University</h1>
+          <div class="content">
+            <p>admissions</p>
+          </div>
+        </section>
+      </div>
+  </body>
+</html>
